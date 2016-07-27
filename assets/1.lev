@@ -1,0 +1,76 @@
+# dwa ograniczniki po bokach
+NormalLand (0, 0) (1,9999900)
+NormalLand (639, 0) (640,9999900)
+
+# wrogowie na start
+DynamicBoat (50, 200) (1, 0)
+DynamicBoat (550, 1000) (1, 0)
+Heli (400, 500) (1, 0)
+Heli (500, 620)
+
+# paliwo na start 
+FuelStation (500, 1100)
+
+# ląd z lewej i drzewa
+NormalLand (0, 300) (200,1800)
+Tree (100, 700)
+Tree (150, 700)
+Tree (125, 640)
+
+# most i czołg na nim
+NormalLand (0, 1200) (180,1800)
+NormalLand (460, 1200) (640,1800)
+Bridge (320, 1500)
+DynamicTank (320, 1500)
+DynamicBoat (520, 400) (1, 0)
+
+# ląd dalej
+NormalLand (0, 1800) (80,3300)
+NormalLand (560, 1800) (640,3300)
+
+# meander
+NormalLand (80, 2000) (160,2600)
+NormalLand (480, 2500) (560,2900)
+
+StaticTank (560, 2700)
+
+StaticBoat (500, 3400)
+Fighter (50, 2200) (-1, 0)
+FuelStation (250, 2700)
+Fighter (450, 3200)
+Heli (300, 3500)
+
+NormalLand (0, 3000) (200, 3700)
+House (100, 3400)
+
+# rozgałęzienie
+NormalLand (0, 4000) (20,6000)
+Bridge (120, 5500)
+StaticTank (120, 5500)
+
+NormalLand (300, 4000) (340,6000)
+Tree (320, 4200)
+Tree (320, 4400)
+Tree (320, 4800)
+Tree (320, 5200)
+Tree (320, 5600)
+
+Bridge (520, 5500)
+StaticTank (520, 5500)
+NormalLand (620, 4000) (640,6000)
+
+# korytarz
+NormalLand (0, 6000) (160,12000)
+NormalLand (480, 6000) (640,12000)
+
+DynamicBoat (320, 7000) (-1, 0)
+DynamicBoat (320, 7600) (1, 0)
+Heli (400, 8800) (-1, 0)
+Heli (400, 9000) (1, 0)
+Heli (200, 9200) (1, 0)
+Heli (400, 9400) (1, 0)
+
+# most na koniec
+FuelStation (320, 8000)
+ImportantBridge (320, 10000)
+DynamicTank (320, 10000)

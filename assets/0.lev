@@ -1,0 +1,58 @@
+# dwa ograniczniki po bokach
+NormalLand (0, 0) (1,9999900)
+NormalLand (639, 0) (640,9999900)
+
+NormalLand (100, 400) (200,600)
+NormalLand (400, 400) (500,600)
+
+NormalLand (0, 550) (200,900)
+NormalLand (400, 550) (640,900)
+
+House (100, 700)
+House (540, 700)
+
+Heli (250, 500) (1, 0)
+Heli (250, 450) (1, 0)
+Heli (250, 550) (1, 0)
+
+NormalLand (0, 1200) (200,1800)
+NormalLand (440, 1200) (640,1800)
+Bridge (320, 1500)
+StaticTank (320, 1500)
+
+FuelStation (320, 2100)
+Heli (10, 2000) (1, 0)
+Heli (630, 2200) (-1, 0)
+
+NormalLand (0, 2500) (150,2900)
+NormalLand (0, 2850) (300,3300)
+NormalLand (0, 3250) (450,3700)
+
+StaticTank (75, 2700)
+DynamicBoat (550, 3400) (-1, 0)
+
+FuelStation (240, 4000)
+FuelStation (400, 4000)
+
+Fighter (200, 4500) (1, 0)
+Fighter (200, 4500) (-1, 0)
+
+NormalLand (160, 4920) (480, 5080)
+NormalLand (180, 4900) (460, 5100)
+NormalLand (200, 4880) (440, 5120)
+NormalLand (220, 4860) (420, 5140)
+NormalLand (240, 4840) (400, 5160)
+House (320, 5000)
+
+NormalLand (0, 5400) (200, 6400)
+Tree (100, 6000)
+StaticBoat (400, 5700) 
+StaticBoat (380, 5800) (-1, 0) 
+StaticBoat (420, 5900) 
+
+
+# most na koniec
+NormalLand (0, 6900) (200,7900)
+NormalLand (440, 6900) (640,7900)
+ImportantBridge (320, 7000)
+DynamicTank (320, 7000)
